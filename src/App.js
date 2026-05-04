@@ -11,7 +11,11 @@ function App() {
   });
   const [editando, setEditando] = useState(null);
 
+<<<<<<< HEAD
   const API = "http://backend-service:3000/clientes";
+=======
+  const API = "http://localhost:3000/clientes";
+>>>>>>> 56e78b03984f059b1e1f21c937560d6008e93646
 
   const obtenerClientes = () => {
     axios.get(API)
